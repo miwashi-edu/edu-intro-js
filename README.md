@@ -29,6 +29,8 @@ vi service.js
 ```
 
 ```js
+console.log(sum(2,3));
+
 function sum(a, b) {
   return a + b;
 }
@@ -42,7 +44,7 @@ vi ./__tests__/unittest.js
 ```
 
 ```js
-const sum = require('./sum');
+const sum = require('../service.js');
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
