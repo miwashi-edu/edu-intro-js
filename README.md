@@ -16,7 +16,7 @@ mkdir edu-intro-js
 cd edu-intro-js
 touch service.js
 mkdir __tests__
-touch ./__tests__/unitest.js
+touch ./__tests__/unittest.js
 npm init -y
 npm pkg set main="service.js"
 npm pkg set scripts.start="node service.js" 
