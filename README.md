@@ -1,6 +1,7 @@
 # edu-intro-js
 
-> En enkel introduktion till nodejs projekt.
+> En enkel introduktion till nodejs projekt, med mål att bygga en backend web service applikation.
+> Denna skall kunnas utantill, och utföras på x sekunder.
 
 ## Instruktioner
 
