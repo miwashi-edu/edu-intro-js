@@ -68,8 +68,7 @@ test('adds 1 + 2 to equal 3', () => {
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.3.1",
-    "nodemon": "^2.0.20"
+    "jest": "^29.3.1"
   }
 }
 ```
