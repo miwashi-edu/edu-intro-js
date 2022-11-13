@@ -118,7 +118,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ### npm install -D jest
 
-> Vi installerar installerar ramverket jest. -D (eller --save-dev lägger in det som utvecklingsmiljö)
+> Vi installerar installerar ramverket jest. -D (eller --save-dev) lägger in det som beroende i utvecklingsmiljö.
 
 ## vi
 
