@@ -17,7 +17,6 @@ npm init -y
 npm pkg set main="service.js"
 npm pkg set scripts.start="node service.js" 
 npm pkg set scripts.test="jest"
-npm install -D nodemon
 npm install -D jest
 vi service.js # Skriv in kod under rubriken service.js
 vi ./__tests__/unittest.js # Skriv in kod under rubriken unittest.js
