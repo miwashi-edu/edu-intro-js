@@ -4,6 +4,8 @@
 > Denna skall kunnas utantill, och utföras på 3 minuter och 30 sekunder.
 > service.js och unittest.js kan kopieras och klistras, men tiden tillåter att även de skrivs från minne.
 
+> Detta kan kännas komplext, men mot sluet av kursen kommer detta att vara mycket bekant för dem som lägger ned energi att klara det inom tidsramen.
+
 ## Instruktioner
 
 ```bash
