@@ -47,3 +47,28 @@ test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
 ```
+
+## package.json
+
+> Gör du allting rätt ska din package.json se ut som detta.
+
+```json
+{
+  "name": "edu-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node service.js",
+    "start": "node service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20"
+  }
+}
+```
