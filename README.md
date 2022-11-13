@@ -100,11 +100,11 @@ test('adds 1 + 2 to equal 3', () => {
 
 > Vi skapar filen service.js. (Egentligen betyder touch att vi sätter senast ändrad datum på filen till nu, men om inte filen finns så skapas den.)
 
-### mkdir __tests__
+### mkdir \_\_tests\_\_
 
 > Vi skapar en katalog som ofta är standard i node projekt. Testramverket jest kommer automatiskt att leta efter test i denna katalog.
 
-### touch ./__tests__/unitest.js
+### touch ./\_\_tests\_\_/unitest.js
 
 > Vi skapar en javascript fil där vi kan skriva test.
 
