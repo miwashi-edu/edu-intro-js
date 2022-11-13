@@ -24,12 +24,27 @@ npm install -D jest
 
 ## service.js
 
-```js
-
+```bash 
+vi service.js
 ```
 
+```js
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
+```
+ 
 ## ./\_\_tests\_\_/unittest.js
 
-```js
+```bash 
+vi ./__tests__/unittest.js
+```
 
+```js
+const sum = require('./sum');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
 ```
