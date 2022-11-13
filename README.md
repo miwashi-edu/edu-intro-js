@@ -28,7 +28,7 @@ npm install -D jest
 
 ```
 
-## ./__tests__/unittest.js
+## ./\_\_tests\_\_/unittest.js
 
 ```js
 
