@@ -20,13 +20,14 @@ npm pkg set scripts.dev="nodemon service.js"
 npm pkg set scripts.test="jest"
 npm install -D nodemon
 npm install -D jest
+vi service.js # Skriv in kod under rubriken service.js
+vi ./__tests__/unittest.js # Skriv in kod under rubriken unittest.js
+
+npm test # Testa din kod
+npm start # Kör din kod
 ```
 
 ## service.js
-
-```bash 
-vi service.js
-```
 
 ```js
 console.log(sum(2,3));
@@ -37,11 +38,7 @@ function sum(a, b) {
 module.exports = sum;
 ```
  
-## ./\_\_tests\_\_/unittest.js
-
-```bash 
-vi ./__tests__/unittest.js
-```
+## unittest.js
 
 ```js
 const sum = require('../service.js');
